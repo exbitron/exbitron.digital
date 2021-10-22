@@ -1,10 +1,10 @@
 <template>
   <div class="content-section section--hidden" data-page="4">
-    <h1 class="content-section__title">How to get ETRX ?</h1>
+    <h1 class="content-section__title">How to get EXTO ?</h1>
     <p class="content-section__text">
-      ETRX is the TRC20 token that aims to become the preferred method to
+      EXTO is the TRC20 token that aims to become the preferred method to
       transact transparently through the TRON blockchain. The token generation
-      event will create and distribute a maximum 100 Milion ETRX
+      event will create and distribute a maximum 100 Milion EXTO
     </p>
     <div class="content-services">
       <div class="content-services__service">
@@ -15,10 +15,10 @@
         />
         <span class="content-service__text">Exbitron.com</span>
         <ul class="extended-services">
-          <li class="extended-services__service">USDT/ETRX</li>
-          <li class="extended-services__service">BTC/ETRX</li>
-          <li class="extended-services__service">LTC/ETRX</li>
-          <li class="extended-services__service">TRX/ETRX</li>
+          <li class="extended-services__service">USDT/EXTO</li>
+          <li class="extended-services__service">BTC/EXTO</li>
+          <li class="extended-services__service">LTC/EXTO</li>
+          <li class="extended-services__service">TRX/EXTO</li>
         </ul>
       </div>
       <div class="content-services__service">

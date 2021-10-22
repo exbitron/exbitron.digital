@@ -1,6 +1,6 @@
 //// Main site configuration. ////
 const configuration = {
-  SiteName: 'ETRX',
+  SiteName: 'EXTO',
   NumberOfVerticalLines: 0,
   NumberOfDots: 5000,
   colors: {
@@ -78,15 +78,15 @@ function init() {
   if (!isMobile()) window.addEventListener('mousemove', mouseMove, false)
 }
 
-function animate (time) {
+function animate(time) {
   requestAnimationFrame(animate)
   TWEEN.update()
   render(time)
 }
 
-function render (time) {
+function render(time) {
   time = time / 1000
-  
+
   if (mainLettersMesh) mainLettersMesh.material.uniforms.time.value = time
   // Move geometries left and right.
   mainGeomertries.forEach((geometry, index) => {
@@ -99,7 +99,7 @@ function render (time) {
 // **** HELPER FUNCTIONS **** //
 
 // Generate main geometries by random width, height, color and position.
-function generateRandomObject (verticalPosition, availableSizes, availableColors) {
+function generateRandomObject(verticalPosition, availableSizes, availableColors) {
   const randomIntFromInterval = (min, max) => Math.floor(Math.random() * (max - min + 1) + min)
 
   const randomWidth = availableSizes[0][randomIntFromInterval(0, availableSizes[0].length - 1)]
@@ -107,7 +107,7 @@ function generateRandomObject (verticalPosition, availableSizes, availableColors
   const randomColor = availableColors[randomIntFromInterval(0, availableColors.length - 1)]
 
   const geometry = new THREE.PlaneBufferGeometry(randomWidth, randomHeight, 1)
-  geometry.applyMatrix4(new THREE.Matrix4().makeTranslation(-geometry.parameters.width / 2, 0, 0 ))
+  geometry.applyMatrix4(new THREE.Matrix4().makeTranslation(-geometry.parameters.width / 2, 0, 0))
   const material = new THREE.MeshBasicMaterial({ color: randomColor, side: THREE.FrontSide })
   const mesh = new THREE.Mesh(geometry, material)
 
@@ -119,7 +119,7 @@ function generateRandomObject (verticalPosition, availableSizes, availableColors
   mainGeomertries.push(mesh)
 }
 
-function loadMainLetters () {
+function loadMainLetters() {
   const fontLoader = new THREE.FontLoader()
   fontLoader.load('resources/fonts/Roboto-Black-3d.json', font => {
     let textGeometry = new THREE.TextGeometry(configuration.SiteName, { font: font, size: 5, height: 3, curveSegments: 3 })
@@ -128,7 +128,7 @@ function loadMainLetters () {
     const textMaterial = new THREE.ShaderMaterial({
       uniforms: {
         time: { value: 0 },
-        color: { type: 'vec3', value: new THREE.Color( configuration.colors.LettersColor ) }
+        color: { type: 'vec3', value: new THREE.Color(configuration.colors.LettersColor) }
       },
       vertexShader: vertexShader(),
       fragmentShader: fragmentShader(),
@@ -139,19 +139,19 @@ function loadMainLetters () {
     scene.add(mainLettersMesh)
 
     let vertices = []
-  
-    for (let i = 0; i < configuration.NumberOfDots; i ++) {
+
+    for (let i = 0; i < configuration.NumberOfDots; i++) {
       let x = Math.random() * 200 - 100
       let y = Math.random() * 200 - 100
       let z = Math.random() * 200 - 100
-    
+
       vertices.push(x, y, z)
     }
-    
+
     const bufferGeometry = new THREE.BufferGeometry()
     bufferGeometry.setAttribute('position', new THREE.Float32BufferAttribute(vertices, 3))
     const pointSprite = new THREE.TextureLoader().load('resources/images/icons/pointImg.png')
-    const pointsMaterial = new THREE.PointsMaterial({color: configuration.colors.DotsColor, size: 0.5, map: pointSprite, transparent: true, alphaTest: 0.5})
+    const pointsMaterial = new THREE.PointsMaterial({ color: configuration.colors.DotsColor, size: 0.5, map: pointSprite, transparent: true, alphaTest: 0.5 })
     const points = new THREE.Points(bufferGeometry, pointsMaterial)
     scene.add(points)
 
@@ -159,7 +159,7 @@ function loadMainLetters () {
   })
 }
 
-function vertexShader () {
+function vertexShader() {
   return `
   varying vec2 vUv;
   uniform float time;
@@ -269,7 +269,7 @@ function vertexShader () {
   `
 }
 
-function fragmentShader () {
+function fragmentShader() {
   return `
   uniform vec3 color;
   void main() {
@@ -278,26 +278,26 @@ function fragmentShader () {
   `
 }
 
-function isMobile () {
+function isMobile() {
   try {
     document.createEvent('touchEvent')
     return true
   } catch (err) { return false }
 }
 
-function uiCallback () {
+function uiCallback() {
   return {
-    onPagingClick (pagingIndex) {
+    onPagingClick(pagingIndex) {
       if (sceneMovedAmmount > sceneMovedAmmount) ui.ui_moveScene('down')
       else ui.ui_moveScene('up')
 
       sceneMovedAmmount = pagingIndex
       moveScene()
     },
-    getCurrentPage () {
+    getCurrentPage() {
       return sceneMovedAmmount
     },
-    blockSceneScrolling (active) {
+    blockSceneScrolling(active) {
       active ? timeoutActive = true : timeoutActive = false
     }
   }
@@ -305,14 +305,14 @@ function uiCallback () {
 
 // **** EVENT FUNCTIONS **** //
 
-function moveScene () {
+function moveScene() {
   new TWEEN.Tween(scene.position)
-  .to({x: scene.position.x, y: sceneMovedAmmount * windowHeightInRadians, z: scene.position.z}, 1000)
-  .easing(TWEEN.Easing.Quartic.InOut)
-  .start()
+    .to({ x: scene.position.x, y: sceneMovedAmmount * windowHeightInRadians, z: scene.position.z }, 1000)
+    .easing(TWEEN.Easing.Quartic.InOut)
+    .start()
 }
 
-function windowResize () {
+function windowResize() {
   if (mainLettersMesh) {
     const scaleAmmount = Math.min(window.innerWidth / 1100, 1)
     mainLettersMesh.scale.x = scaleAmmount
@@ -324,7 +324,7 @@ function windowResize () {
   renderer.setSize(window.innerWidth, window.innerHeight)
 }
 
-function windowWheelOrTouch (e) {
+function windowWheelOrTouch(e) {
   // Limit scrolling to scroll only once in N milliseconds.
   if (timeoutActive) return
   timeoutActive = true
@@ -346,7 +346,7 @@ function windowWheelOrTouch (e) {
   ui.ui_moveScene('up')
 }
 
-function mouseMove (e) {
+function mouseMove(e) {
   ui.ui_moveEvent(e)
   if (sceneMovedAmmount > 0) return
 

@@ -2,7 +2,7 @@
   <main class="ui-wrapper page-not-loaded">
     <!-- LOADER -->
     <div class="loader flex flex--center">
-      <span class="loader__text">ETRX</span>
+      <span class="loader__text">EXTO</span>
     </div>
 
     <MainMenu></MainMenu>

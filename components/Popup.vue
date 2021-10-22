@@ -18,7 +18,7 @@
     <!-- OFFERS POPUP -->
     <div class="popup" data-popup="offers">
       <div class="popup__inner">
-        <h2 class="popup__title">WHY CHOOSE ETRX ?</h2>
+        <h2 class="popup__title">WHY CHOOSE EXTO ?</h2>
         <h2 class="popup__subtitle">Some of the things we do</h2>
         <div class="popup__content popup__offers">
           <div class="popup__offer">

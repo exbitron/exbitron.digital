@@ -1,6 +1,6 @@
 <template>
   <div class="content-section section--hidden" data-page="2">
-    <h1 class="content-section__title">WHY CHOOSE ETRX</h1>
+    <h1 class="content-section__title">WHY CHOOSE EXTO</h1>
     <p class="content-section__text">
       Open-source smart contract ensures fair and transparent deals between
       merchants and affiliates. Using latest technology, build with latest UI &
