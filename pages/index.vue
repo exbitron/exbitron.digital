@@ -1,6 +1,5 @@
 <template>
   <main class="ui-wrapper page-not-loaded">
-    <!-- LOADER -->
     <div class="loader flex flex--center">
       <span class="loader__text">EXTO</span>
     </div>
@@ -13,7 +12,6 @@
 
     <Footer></Footer>
 
-    <!-- MAIN CONTENT -->
     <div class="content">
       <ScrollElement></ScrollElement>
 

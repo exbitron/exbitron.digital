@@ -16,6 +16,14 @@
       <div class="content-section__image-holder">
         <img
           class="content-section__image"
+          src="https://avatars.githubusercontent.com/u/16962301?v=4"
+          alt="Team photo"
+          title="Matus aka 'hyperally'"
+        />
+      </div>
+      <div class="content-section__image-holder">
+        <img
+          class="content-section__image"
           src="https://avatars.githubusercontent.com/u/6382002?v=4"
           alt="Team photo"
           title="Lukas aka 'arzzen'"

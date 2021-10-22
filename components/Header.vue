@@ -8,13 +8,8 @@
       </div>
       <div class="fixed-content-header__logo">Exbitron.Digital</div>
     </div>
-    <a
-      class="fixed-content-header__contact button button--primary"
-      data-follow
-      data-page="5"
-      href="https://www.exbitron.com"
-    >
-      BUY
+    <a class="fixed-content-header__contact button button--primary" href="#">
+      WHITEPAPER
     </a>
   </header>
 </template>

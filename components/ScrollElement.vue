@@ -21,6 +21,7 @@
   display: none;
 }
 .icon-main {
+  opacity: 0.1;
   position: absolute;
   top: 50% !important;
 }

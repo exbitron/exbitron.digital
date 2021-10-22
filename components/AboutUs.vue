@@ -8,7 +8,7 @@
       virtual platforms.
     </p>
     <a
-      href="https://tronscan.org/#/token20/TQ93dpMsXNgdpVwT9YdgEJU4KBZyr3Hqx7"
+      href="https://tronscan.org/#/token20/TBkh7fAZRsbdkqjy6MyGCqpeGWzboayzeY"
       class="content-section__button button button--icon"
     >
       <span class="button__text">EXTO contract</span>
