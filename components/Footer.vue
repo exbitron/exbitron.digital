@@ -50,7 +50,7 @@
 
       <a
         class="social-links__anchor"
-        href="https://t.me/joinchat/VPipvQT8SmFlZDc0"
+        href="https://t.me/exbitron_en"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
