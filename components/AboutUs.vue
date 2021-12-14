@@ -2,8 +2,8 @@
   <div class="content-section section--hidden" data-page="1">
     <h1 class="content-section__title">ABOUT EXTO</h1>
     <p class="content-section__text">
-      Cryptocurrency TRC-20<br /><br />
-      EXTO is a trc-20 token on the tron ​​blockchain and is completely open
+      Exbitron Digital Token<br /><br />
+      EXTO is a TRC-20 token on the Tron ​​blockchain and is completely open
       source. EXTO is developing projects on blockchain new technologies in
       virtual platforms.
     </p>
@@ -11,7 +11,7 @@
       href="https://tronscan.org/#/token20/TBkh7fAZRsbdkqjy6MyGCqpeGWzboayzeY"
       class="content-section__button button button--icon"
     >
-      <span class="button__text">EXTO contract</span>
+      <span class="button__text">EXTO Contract</span>
     </a>
   </div>
 </template>
