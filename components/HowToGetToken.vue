@@ -4,7 +4,7 @@
     <p class="content-section__text">
       EXTO is the TRC20 token that aims to become the preferred method to
       transact transparently through the TRON blockchain. The token generation
-      event will create and distribute a maximum 100 Milion EXTO
+      event will create and distribute a maximum of 100 million EXTO.
     </p>
     <div class="content-services">
       <div class="content-services__service">
