@@ -8,7 +8,10 @@
       </div>
       <div class="fixed-content-header__logo">Exbitron.Digital</div>
     </div>
-    <a class="fixed-content-header__contact button button--primary" href="#">
+    <a
+      class="fixed-content-header__contact button button--primary"
+      href="/whitepaper.pdf"
+    >
       WHITEPAPER
     </a>
   </header>
