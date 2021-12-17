@@ -26,7 +26,7 @@
           src="/resources/images/icons/analytics.svg"
           alt="Marketing icon"
         />
-        <span class="content-service__text">Low Cost</span>
+        <span class="content-service__text">Low Cost Offer</span>
         <ul class="extended-services">
           <li class="extended-services__service">EXTO offers low-cost transactions, which are possible made through TRON Decentralized Network.</li>
        
