@@ -44,7 +44,7 @@
               <a
                 _target="blank"
                 href="https://tronscan.org/#/token20/TBkh7fAZRsbdkqjy6MyGCqpeGWzboayzeY"
-                style="color: yellow"
+                style="color: yellow; font-size: 15px"
                 >TBkh7fAZRsbdkqjy6MyGCqpeGWzboayzeY</a
               ><br />
               <span style="font-size: 14px; color: gray">Contract Address</span>
