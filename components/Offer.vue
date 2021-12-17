@@ -44,20 +44,7 @@
        
         </ul>
       </div>
-      <div class="content-services__service">
-        <img
-          class="content-service__image"
-          src="/resources/images/icons/research.svg"
-          alt="Marketing icon"
-        />
-        <span class="content-service__text">User-Friendly</span>
-        <ul class="extended-services">
-          <li class="extended-services__service">SEO</li>
-          <li class="extended-services__service">Linear</li>
-          <li class="extended-services__service">Public</li>
-          <li class="extended-services__service">Comercial</li>
-        </ul>
-      </div>
+      
     </div>
   </div>
 </template>
