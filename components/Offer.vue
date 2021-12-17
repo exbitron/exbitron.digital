@@ -17,9 +17,7 @@
         <span class="content-service__text">Fair deals only</span>
         <ul class="extended-services">
           <li class="extended-services__service">Payments, transactions are made possible through the use of Smart Contracts that protects both sellers and buyers of EXTO.</li>
-          <li class="extended-services__service"></li>
-          <li class="extended-services__service"></li>
-          <li class="extended-services__service"></li>
+         
         </ul>
       </div>
       <div class="content-services__service">
@@ -31,9 +29,7 @@
         <span class="content-service__text">Low Cost</span>
         <ul class="extended-services">
           <li class="extended-services__service">EXTO offers low-cost transactions, which are possible made through TRON Decentralized Network.</li>
-          <li class="extended-services__service"></li>
-          <li class="extended-services__service"></li>
-          <li class="extended-services__service"></li>
+       
         </ul>
       </div>
       <div class="content-services__service">
@@ -45,9 +41,7 @@
         <span class="content-service__text">Fast Blockchain</span>
         <ul class="extended-services">
           <li class="extended-services__service">EXTO payments are processed instantly and securely through a peer to peer decentralized TRON network.</li>
-          <li class="extended-services__service"></li>
-          <li class="extended-services__service"></li>
-          <li class="extended-services__service"></li>
+       
         </ul>
       </div>
       <div class="content-services__service">
