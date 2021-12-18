@@ -16,9 +16,6 @@
         <span class="content-service__text">Exbitron.com</span>
         <ul class="extended-services">
           <li class="extended-services__service">USDT/EXTO</li>
-          <li class="extended-services__service">BTC/EXTO</li>
-          <li class="extended-services__service">LTC/EXTO</li>
-          <li class="extended-services__service">TRX/EXTO</li>
         </ul>
       </div>
       <div class="content-services__service">
