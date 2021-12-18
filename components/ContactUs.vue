@@ -8,7 +8,7 @@
     <div class="content-section__buttons-holder">
       <a
         class="content-section__button button button--icon"
-        href="mailto:YOUREMAILHERE"
+        href="mailto:info@exbitron.com?subject=EXTO%20Contact"
       >
         <img
           class="button__image"
