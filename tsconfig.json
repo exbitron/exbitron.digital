@@ -3,6 +3,7 @@
     "target": "ES2018",
     "module": "ESNext",
     "moduleResolution": "Node",
+    "jsx": "react-jsx",
     "lib": [
       "ESNext",
       "ESNext.AsyncIterable",
@@ -15,6 +16,9 @@
     "noEmit": true,
     "experimentalDecorators": true,
     "baseUrl": ".",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
     "paths": {
       "~/*": [
         "./*"
