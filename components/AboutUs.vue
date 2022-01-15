@@ -27,7 +27,7 @@
           </tr>
           <tr style="margin-bottom: 20px; display: block">
             <td>
-              TRC-20<br />
+              TRC-20, BEP-20, ERC-20<br />
               <span style="font-size: 14px; color: gray">Token type</span>
             </td>
           </tr>
@@ -41,11 +41,26 @@
           </tr>
           <tr style="margin-bottom: 20px; display: block">
             <td colspan="2">
+              TRC20
               <a
                 _target="blank"
                 href="https://tronscan.org/#/token20/TBkh7fAZRsbdkqjy6MyGCqpeGWzboayzeY"
                 style="color: yellow; font-size: 15px"
                 >TBkh7fAZRsbdkqjy6MyGCqpeGWzboayzeY</a
+              ><br />
+              ERC20
+              <a
+                _target="blank"
+                href="https://etherscan.io/address/0xE40600a30e76A700bE9aa2c4224aaacd0a5dBE98"
+                style="color: yellow; font-size: 15px"
+                >0xE40600a30e76A700bE9aa2c4224aaacd0a5dBE98</a
+              ><br />
+              BEP20
+              <a
+                _target="blank"
+                href="https://bscscan.com/address/0xE40600a30e76A700bE9aa2c4224aaacd0a5dBE98"
+                style="color: yellow; font-size: 15px"
+                >0xE40600a30e76A700bE9aa2c4224aaacd0a5dBE98</a
               ><br />
               <span style="font-size: 14px; color: gray">Contract Address</span>
             </td>
