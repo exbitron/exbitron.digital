@@ -6,6 +6,7 @@
     <div class="paging__page section--hidden" data-page="3"></div>
     <div class="paging__page section--hidden" data-page="4"></div>
     <div class="paging__page section--hidden" data-page="5"></div>
+    <div class="paging__page section--hidden" data-page="6"></div>
   </div>
 </template>
 

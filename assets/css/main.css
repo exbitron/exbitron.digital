@@ -188,7 +188,7 @@ canvas {
 .menu-list__item {
   color: var(--secondaryColor);
   position: relative;
-  font: 900 120px Roboto, sans-serif;
+  font: 900 80px Roboto, sans-serif;
   letter-spacing: var(--letterSpacing);
   cursor: pointer;
   padding-left: 30px;
@@ -930,6 +930,16 @@ iframe {
   .content-section__image-holder {
     width: 100px;
     height: 100px;
+  }
+  
+   .content-section__image-cpaprika {
+    width: 300px;
+    height: 54px;
+  }
+  
+    .content-section__image-blockspot {
+    width: 300px;
+    height: 90px;
   }
 
   .popup__title {

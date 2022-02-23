@@ -6,6 +6,7 @@
       <li class="menu-list__item" data-page="4">HOW TO GET EXTO</li>
       <li class="menu-list__item" data-page="3">OUR TEAM</li>
       <li class="menu-list__item" data-page="5">CONTACT US</li>
+      <li class="menu-list__item" data-page="6">OUR PARTNERS</li>
     </ul>
   </div>
 </template>

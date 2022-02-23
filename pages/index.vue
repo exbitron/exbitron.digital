@@ -24,6 +24,8 @@
       <HowToGetToken></HowToGetToken>
 
       <ContactUs></ContactUs>
+	  
+      <Partners></Partners>
     </div>
   </main>
 </template>
@@ -40,6 +42,7 @@ import Offer from "~/components/Offer.vue";
 import Team from "~/components/Team.vue";
 import HowToGetToken from "~/components/HowToGetToken.vue";
 import ContactUs from "~/components/ContactUs.vue";
+import Partners from "~/components/Partners.vue";
 
 export default Vue.extend({});
 </script>
